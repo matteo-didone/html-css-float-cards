@@ -34,6 +34,12 @@ body
     background-color: white;
 }
 
+main
+{
+    width: 65%;
+    margin: 0 auto;
+}
+
 /*Poichè uso i float per posizionare determinati elementi, userò anche il clearfix*/
 .clearfix::after 
 {
@@ -42,9 +48,28 @@ body
     clear: both;
 }
 
-.box
+div.big-column 
 {
-    background: white url("gradient.png") ;
-    background-repeat: repeat-y;
     padding-top: 20px;
+    margin: 15px 5px;
+    height: 450px; /*DA ELIMINARE!*/
+    width: 30%;
+    background-color: red;
+    border: 10px solid magenta;
+    float: left;
+}
+
+div.business-card
+{
+    height: 70px;
+    width: 250px;
+    margin: 10px;
+    background-color: aqua;
+    border: 5px white;
+    float: left;
+}
+
+#team-memebers-section
+{
+    position: center;
 }
