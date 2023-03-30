@@ -17,9 +17,20 @@
 #main-title   
 {
     color: rgba(229,48,111,255);
+    text-align: center;
+    margin-bottom: 5rem;
 }
 
+/*Imposto come colore di sfondo il bianco*/
 body
 {
-    vertical-align: center;
+    background-color: white;
+}
+
+/*Poichè uso i float per posizionare determinati elementi, userò anche il clearfix*/
+.clearfix::after 
+{
+    content: "";
+    display: table;
+    clear: both;
 }
