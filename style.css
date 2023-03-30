@@ -1,0 +1,12 @@
+/*Reset dei valori di CSS*/
+* 
+{
+	margin: 0px;
+	padding: 0px;
+	box-Sizing: border-box;
+}
+
+#main-title 
+{
+    color: rgba(229,48,111,255);
+}
