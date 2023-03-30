@@ -4,9 +4,17 @@
 	margin: 0px;
 	padding: 0px;
 	box-Sizing: border-box;
+    font-family: BetmRounded, sans-serif; /*Scelgo sans-serif come font di riserva*/
 }
 
-#main-title 
+/*Creo il mio font, che è molto simile a quello dell'immagine*/
+@font-face
+{
+    font-family: BetmRounded;
+    src: url("BetmRounded-Black.woff2");
+}
+
+#main-title   
 {
     color: rgba(229,48,111,255);
 }
