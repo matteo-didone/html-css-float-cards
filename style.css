@@ -52,10 +52,9 @@ div.big-column
 {
     padding-top: 20px;
     margin: 15px 5px;
-    height: 450px; /*DA ELIMINARE!*/
     width: 30%;
-    background-color: red;
-    border: 10px solid magenta;
+    background-color: white;
+    border: 10px solid white;
     float: left;
 }
 
@@ -64,7 +63,7 @@ div.business-card
     height: 70px;
     width: 250px;
     margin: 10px;
-    background-color: aqua;
+    background-color: rgba(15,14,23,255);
     border: 5px white;
     float: left;
 }
@@ -72,4 +71,33 @@ div.business-card
 #team-memebers-section
 {
     position: center;
+}
+
+h2.name
+{
+    color: white;
+    font-size: 20px;
+    text-align:justify;
+}
+
+.profession
+{
+    color: white;
+    position: inline-block;
+    text-align:justify;
+}
+
+.email-address
+{
+    color: rgba(71,167,198,255);
+    position: inline-block;
+    text-align:justify;
+}
+
+.profile-picture
+{
+    height: 100%;
+    width: 25%;
+    float:left; 
+    margin-right: 8px;
 }
