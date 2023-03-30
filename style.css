@@ -60,11 +60,10 @@ div.big-column
 
 div.business-card
 {
-    height: 70px;
     width: 250px;
     margin: 10px;
     background-color: rgba(15,14,23,255);
-    border: 5px white;
+    border: 10px rgba(15,14,23,255);
     float: left;
 }
 
