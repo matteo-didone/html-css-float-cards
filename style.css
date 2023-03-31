@@ -28,10 +28,12 @@
     text-align: center;
 }
 
-/*Imposto come colore di sfondo il bianco*/
+/*Imposto come colore di sfondo il bianco e allineo tutto al centro*/
 body
 {
     background-color: white;
+    margin: auto;
+    width: 68%;
 }
 
 main
