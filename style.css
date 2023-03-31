@@ -33,7 +33,7 @@ body
 {
     background-color: white;
     margin: auto;
-    width: 68%;
+    width: 69%;
 }
 
 main
@@ -80,6 +80,7 @@ h2.name
     color: white;
     font-size: 20px;
     text-align:justify;
+    padding-top: 5px;
 }
 
 .profession
